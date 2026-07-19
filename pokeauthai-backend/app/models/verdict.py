@@ -1,0 +1,8 @@
+from enum import Enum
+
+
+class Verdict(str, Enum):
+    LIKELY_REAL = "LIKELY_REAL"
+    SUSPICIOUS = "SUSPICIOUS"
+    UNCERTAIN = "UNCERTAIN"
+    INSUFFICIENT_EVIDENCE = "INSUFFICIENT_EVIDENCE"
